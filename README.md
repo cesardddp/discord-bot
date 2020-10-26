@@ -3,3 +3,6 @@
 ### Reference
 #### Discord
   [Discord API reference](https://discord.com/developers/docs/reference)
+
+### Project instalation:
+#### make
