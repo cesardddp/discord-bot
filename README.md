@@ -1,5 +1,5 @@
 # Discord-bot
-# discord bot with amazon alex 
+##### discord bot with amazon alex 
 ### Reference
-## Discord
+#### Discord
   [Discord API reference](https://discord.com/developers/docs/reference)
