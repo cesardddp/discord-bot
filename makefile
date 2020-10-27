@@ -1,5 +1,5 @@
 run:
-	python3 src/app
+	python3 src
 
 install:
 	pip install -e .['dev']
@@ -11,3 +11,6 @@ create_activate_venv:
 
 run-i:
 	python3 -i src/app
+
+tests:
+	python3 src/tests
