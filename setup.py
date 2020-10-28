@@ -16,11 +16,10 @@ setup(
     license='',
     packages=find_packages(
         exclude='./.venv',
-        #where='src'),
-    ),
+        where='app'),
     include_package_data=True,
     install_requires=get_requeires_file("requeriments.txt"),
-    extra_require={
+    extras_require={
         'dev':  get_requeires_file("requeriments-dev.txt")
     }
 )
