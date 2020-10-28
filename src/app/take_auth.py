@@ -15,9 +15,14 @@ def take_auth(token_file_name):
         lines = token_file.readlines()
         
     url =  "https://discord.com/api/oauth2/authorize?"
-    client_id = lines[0].strip()
-    scope = lines[1].strip()
-    permissions = lines[2].strip()
+
+
+    try:
+        client_id = lines[0].strip()
+        scope = lines[1].strip()
+        permissions = lines[2].strip()
+    except IndexError as e:
+        print(e)
 
     return f"{url}{client_id}&{scope}&{permissions}"
   
