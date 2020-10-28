@@ -13,4 +13,4 @@ run-i:
 	python3 -i src/app
 
 tests:
-	python3 src/tests
+	python3 discord-bot.tests
